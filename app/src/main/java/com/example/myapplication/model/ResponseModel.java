@@ -2,6 +2,8 @@ package com.example.myapplication.model;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 public class ResponseModel {
 
     @SerializedName("status")
@@ -14,13 +16,13 @@ public class ResponseModel {
     private int  rowCount;
 
     @SerializedName("data")
-    private NobetciEzcaneModel veriler;
+    private List<NobetciEzcaneModel> veriler;
 
-    public NobetciEzcaneModel getVeriler() {
+    public List<NobetciEzcaneModel> getVeriler() {
         return veriler;
     }
 
-    public void setVeriler(NobetciEzcaneModel veriler) {
+    public void setVeriler(List<NobetciEzcaneModel> veriler) {
         this.veriler = veriler;
     }
 

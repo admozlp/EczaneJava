@@ -9,13 +9,11 @@ public class NobetciEzcaneModel {
     public String city;
     @SerializedName("ilce")
     public String town;
-    @SerializedName("EczaneAdi ")
-
+    @SerializedName("EczaneAdi")
     public String name;
-    @SerializedName("adres")
+    @SerializedName("Adresi")
    public String address;
-
-    @SerializedName("telefon")
+    @SerializedName("Telefon")
     public String phone;
 
     public String getCity() {
